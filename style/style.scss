@@ -1,0 +1,17 @@
+@import 'fonts';
+
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+button{
+    font-family: 'ITC';
+    cursor: pointer;
+}
+
+@import 'header';
+@import 'features';
+@import 'works';
+@import 'our-team';
+@import 'form';
+        

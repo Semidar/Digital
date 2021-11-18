@@ -1,0 +1,117 @@
+.our-form {
+  font-family: 'ITC';
+  margin: 0 auto;
+  background-color: #0F063D;
+  padding: 100px 0;
+}
+
+.our-form .form-frame {
+  max-width: 1150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our-form .form-frame #map {
+  margin: 0;
+  margin-right: 30px;
+  width: 650px;
+  height: 510px;
+  border-radius: 5px;
+}
+
+.our-form .form-frame .form {
+  margin: 0;
+  font-size: 12px;
+  max-width: 350px;
+}
+
+.our-form .form-frame .form .title {
+  color: #FFFFFF;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.our-form .form-frame .form .subtitle {
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.our-form .form-frame .form label {
+  color: #FFFFFF;
+  display: block;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.our-form .form-frame .form input {
+  margin: 0;
+  margin-bottom: 12px;
+  height: 40px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.our-form .form-frame .form .client-id {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.our-form .form-frame .form .client-id .name {
+  max-width: 175px;
+  margin: 0;
+}
+
+.our-form .form-frame .form .client-id .surname {
+  text-align: end;
+  max-width: 175px;
+  margin: 0;
+}
+
+.our-form .form-frame .form .client-id .surname label {
+  text-align: start;
+  margin-left: 20px;
+}
+
+.our-form .form-frame .form .client-id input {
+  max-width: 90%;
+}
+
+.our-form .form-frame .form .email input {
+  width: 100%;
+}
+
+.our-form .form-frame .form .message textarea {
+  width: 100%;
+  padding: 20px 0 0 20px;
+  margin: 0;
+  margin-bottom: 22px;
+}
+
+.our-form .form-frame .form button {
+  color: white;
+  background-color: #17105F;
+  padding: 12px 35px;
+  border-radius: 5px;
+  border: none;
+}
+
+.our-form .form-frame .form button:hover {
+  border: 2px solid white;
+  padding: 10px 33px;
+  background-color: transparent;
+}
+
+.our-form .form-frame .form button:active {
+  background-color: #17105F;
+}
+/*# sourceMappingURL=form.css.map */

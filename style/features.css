@@ -1,0 +1,278 @@
+.features {
+  font-family: 'ITC';
+  padding: 102px 0 150px 0;
+  background: -webkit-gradient(linear, left bottom, left top, from(#0F1B67), to(#000029));
+  background: linear-gradient(0deg, #0F1B67 0%, #000029 100%);
+}
+
+.features .features-title {
+  max-width: 1600px;
+  padding-left: 225px;
+  font-size: 16px;
+  color: #49C4F0;
+  padding-bottom: 20px;
+}
+
+.features .our-digital {
+  margin: 0 auto;
+  text-align: center;
+  width: 500px;
+}
+
+.features .our-digital .title {
+  margin: 0;
+  max-width: 450px;
+  font-size: 40px;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+}
+
+.features .our-digital .feature-text {
+  margin: 0;
+  max-width: 450px;
+  font-size: 16px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  padding-bottom: 60px;
+}
+
+.features .features-frame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.features .features-frame .first-block {
+  max-width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.features .features-frame .second-block {
+  max-width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.features-template {
+  margin: 0 10px;
+  padding: 32px 22px 20px 22px;
+  width: 260px;
+  height: 170px;
+  background-color: #430FAE;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.features-template .app-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/templ1.png");
+  background-size: width 30px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features-template .eco-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/templ2.png");
+  background-size: width 30px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features-template .response-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/templ3.png");
+  background-size: width 30px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features-template .custom-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/templ4.png");
+  background-size: width 30px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features-template .mobile-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/templ5.png");
+  background-size: width 30px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features-template .search-icon {
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/templ6.png");
+  background-size: width 30px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features-template .title {
+  line-height: 160%;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 25px 0 5px 0;
+}
+
+.features-template .text {
+  line-height: 160%;
+  font-size: 12px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.features-template .template-btn {
+  visibility: hidden;
+  margin-top: 25px;
+  text-align: center;
+  -webkit-transition: all 0s linear 0.1s;
+  transition: all 0s linear 0.1s;
+}
+
+.features-template .template-btn button {
+  font-weight: bolder;
+  width: 120px;
+  height: 40px;
+  color: #020433;
+  background-color: #49C4F0;
+  border-radius: 5px;
+  border: none;
+}
+
+.features-template .template-btn button:hover {
+  border: 2px solid #49C4F0;
+  background-color: transparent;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+.features-template .template-btn button:active {
+  background-color: #49C4F0;
+  color: #020433;
+}
+
+.features-template:hover {
+  height: 200px;
+}
+
+.features-template:hover .template-btn {
+  visibility: visible;
+  -webkit-transition: all 0s linear 0.3s;
+  transition: all 0s linear 0.3s;
+}
+
+@media (max-width: 1300px) {
+  .features .features-title {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .features .features-title {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 820px) {
+  .features .features-frame {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .features .features-frame .first-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+  }
+  .features .features-frame .second-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+  }
+  .features-template {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .features .our-digital {
+    max-width: 400px;
+  }
+  .features .features-frame {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .features .features-frame .first-block {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .features .features-frame .second-block {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .features {
+    padding: 30px 0 50px 0;
+  }
+  .features .features-title {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .features .our-digital {
+    width: 300px;
+  }
+  .features .our-digital .title {
+    width: 250px;
+    margin: 0 auto;
+    font-size: 15px;
+  }
+  .features .our-digital .feature-text {
+    width: 250px;
+    font-size: 8px;
+    margin: 0 auto;
+  }
+  .features-template {
+    width: 250px;
+  }
+}
+/*# sourceMappingURL=features.css.map */

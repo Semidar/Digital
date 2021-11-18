@@ -1,0 +1,376 @@
+.our-team{
+    position: relative;
+    font-family: 'FiraSans';
+    background-color: #110744;
+    position: relative;
+    .team-frame{
+        max-width: 1150px;
+        display: flex;
+        margin: 0 auto;
+        padding-bottom: 140px;
+        justify-content: space-between;
+        .team-gallery{
+            margin: 0;
+            .worker{
+                border: 1px solid rgba(128, 128, 128, 0.315);
+                max-width: 400px;
+                background-color: transparent;
+                display: flex;
+                justify-content: space-between;
+                padding: 19px 70px 19px 20px;
+                cursor: pointer;
+                transition: 1s;
+                .photo{
+                    margin: 0;
+                    margin-right: 25px;
+                    width: 70px;
+                    height: 70px;
+                    background-size: 70px, auto;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                .worker-text{
+                    display: none;
+                }
+                .patricia{
+                    background-image: url('../img/photo1.png');
+                }
+                .virgie{
+                    background-image: url('../img/photo2.png');
+                }
+                .tom{
+                    background-image: url('../img/photo3.png');
+                }
+                .michael{
+                    background-image: url('../img/photo4.png');
+                }
+                .card{
+                    max-width: 180px;
+                    margin: 0;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    .name{
+                        margin: 0;
+                        font-size: 22px;
+                        color: #FFFFFF;
+                    }
+                    .position{
+                        margin: 0;
+                        font-size: 16px;
+                        color: grey;
+                    }
+                }
+            }
+            .active{
+                background-color: #420FAE;
+            }
+        }
+        .about{
+            max-width: 600px;
+            margin: 0;
+            padding: 85px 63px 140px 63px;
+            border: 1px dashed rgba(128, 128, 128, 0.315);
+            .icon{
+                margin: 0;
+                margin-bottom: 20px;
+                width: 36px;
+                height: 33px;
+                background-image: url('../img/Vector\ \(6\).png');
+            }
+            .about-text{
+                font-size: 22px;
+                color: grey;
+                opacity: 0;
+            }
+            .active{
+                opacity: 1;
+                transition: 1s;
+            }
+        }
+    }   
+    .team-first-ellipse{
+        position: absolute;
+        left: 70%;
+        bottom: 80%;    
+        width: 300px;
+        height: 300px;
+        background-image: url('../img/Ellipse\ 14\ \(1\).png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 300px auto;
+        filter: blur(70px);
+    }
+    .team-second-ellipse{
+        position: absolute;
+        left: 10%;
+        bottom: 60%;
+        width: 300px;
+        height: 300px;
+        background-image: url('../img/Ellipse\ 15\ \(1\).png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 300px auto;
+        filter: blur(70px);
+    }
+    .team-third-ellipse{
+        position: absolute;
+        left: 10%;
+        bottom: 20%;
+        width: 300px;
+        height: 300px;
+        background-image: url('../img/Ellipse\ 15\ \(1\).png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 300px auto;
+        filter: blur(70px);    
+    }
+    .team-fourth-ellipse{
+        position: absolute;
+        left: 60%;
+        bottom: 10%;
+        width: 300px;
+        height: 300px;
+        background-image: url('../img/Ellipse\ 15\ \(1\).png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 300px auto;
+        filter: blur(70px);
+    }
+    
+}
+@media(max-width: 1300px){
+    .our-team{
+        .team-frame{
+            max-width: 1000px;
+        }
+        .team-frame{
+            max-width: 1150px;
+            display: flex;
+            margin: 0 auto;
+            padding-bottom: 140px;
+            justify-content: space-between;
+            .team-gallery{
+                margin: 0;
+                .worker{
+                    border: 1px solid rgba(128, 128, 128, 0.315);
+                    max-width: 400px;
+                    background-color: transparent;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 19px 70px 19px 20px;
+                    cursor: pointer;
+                    transition: 1s;
+                    .photo{
+                        margin: 0;
+                        margin-right: 25px;
+                        width: 70px;
+                        height: 70px;
+                        background-size: 70px, auto;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                    .worker-text{
+                        display: none;
+                    }
+                    .patricia{
+                        background-image: url('../img/photo1.png');
+                    }
+                    .virgie{
+                        background-image: url('../img/photo2.png');
+                    }
+                    .tom{
+                        background-image: url('../img/photo3.png');
+                    }
+                    .michael{
+                        background-image: url('../img/photo4.png');
+                    }
+                    .card{
+                        max-width: 180px;
+                        margin: 0;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        .name{
+                            margin: 0;
+                            font-size: 22px;
+                            color: #FFFFFF;
+                        }
+                        .position{
+                            margin: 0;
+                            font-size: 16px;
+                            color: grey;
+                        }
+                    }
+                }
+                .active{
+                    background-color: #420FAE;
+                }
+            }
+            .about{
+                max-width: 600px;
+                margin: 0;
+                padding: 85px 63px 140px 63px;
+                border: 1px dashed rgba(128, 128, 128, 0.315);
+                .icon{
+                    margin: 0;
+                    margin-bottom: 20px;
+                    width: 36px;
+                    height: 33px;
+                    background-image: url('../img/Vector\ \(6\).png');
+                }
+                .about-text{
+                    font-size: 22px;
+                    color: grey;
+                    opacity: 0;
+                }
+                .active{
+                    opacity: 1;
+                    transition: 1s;
+                }
+            }
+        }   
+        .team-first-ellipse{    
+            width: 200px;
+            height: 200px;
+            background-size: 200px auto;
+        }
+        .team-second-ellipse{
+            width: 200px;
+            height: 200px;
+            background-size: 200px auto;
+        }
+        .team-third-ellipse{
+            width: 200px;
+            height: 200px;
+            background-size: 200px auto;    
+        }
+        .team-fourth-ellipse{
+            width: 200px;
+            height: 200px;
+            background-size: 200px auto;
+        }
+    }
+}
+@media(max-width: 1024px){
+    .our-team{
+        .team-frame{
+            flex-direction: column;
+            .team-gallery{
+                display: flex;
+                .worker{
+                    max-width: 160px;
+                    flex-direction: column;
+                    padding: 5px; 
+                    text-align: center;
+                    .photo{
+                       margin: 0 auto;
+                    }
+                    .card{
+                        .name{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+            .about{
+                max-width: 750px;
+                margin: 0 auto;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+@media(max-width: 800px){
+    .our-team{
+        .team-frame{
+            .team-gallery{
+                .worker{
+                    max-width: 100px;
+                    .card{
+                        .name{
+                            font-size: 10px;
+                        }
+                        .position{
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+            .about{
+                max-width: 550px;
+                padding: 80px 63px 80px 63px;
+            }
+        }
+        .team-first-ellipse{    
+            width: 100px;
+            height: 100px;
+            background-size: 100px auto;
+        }
+        .team-second-ellipse{
+            width: 100px;
+            height: 100px;
+            background-size: 100px auto;
+        }
+        .team-third-ellipse{
+            width: 100px;
+            height: 100px;
+            background-size: 100px auto;    
+        }
+        .team-fourth-ellipse{
+            width: 100px;
+            height: 100px;
+            background-size: 100px auto;
+        }
+    }
+}
+@media(max-width: 600px){
+    .our-team{
+        .team-frame{
+            .team-gallery{
+                .worker{
+                    .card{
+                        .position{
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+            .about{
+                max-width: 450px;
+                padding: 20px 63px 20px 63px;
+            }
+        }
+    }
+}
+@media(max-width: 480px){
+    .our-team{
+        .team-frame{
+            .team-gallery{
+                display: grid;
+                justify-content: center;
+                grid-template-columns: repeat(2, auto);
+                gap: 5px;
+                .worker{
+                    width: 100px;
+                    justify-content: center;
+                    .card{
+                        .position{
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+            .about{
+                max-width: 300px;
+                padding: 20px 63px 20px 63px;
+                .about-text{
+                    font-size: 12px;
+                }
+            }
+        }
+        .team-first-ellipse{
+            display: none;    
+        }
+    }
+}
