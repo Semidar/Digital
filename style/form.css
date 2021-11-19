@@ -57,6 +57,7 @@
   padding: 12px;
   border-radius: 5px;
   outline: none;
+  border: 2px solid grey;
 }
 
 .our-form .form-frame .form .client-id {
@@ -97,6 +98,7 @@
   margin-bottom: 22px;
   border-radius: 5px;
   outline: none;
+  border: 2px solid grey;
 }
 
 .our-form .form-frame .form .submit {

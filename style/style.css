@@ -1676,6 +1676,7 @@ header .substrate-block .big-block .line {
   padding: 12px;
   border-radius: 5px;
   outline: none;
+  border: 2px solid grey;
 }
 
 .our-form .form-frame .form .client-id {
@@ -1716,6 +1717,7 @@ header .substrate-block .big-block .line {
   margin-bottom: 22px;
   border-radius: 5px;
   outline: none;
+  border: 2px solid grey;
 }
 
 .our-form .form-frame .form .submit {
