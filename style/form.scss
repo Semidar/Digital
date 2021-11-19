@@ -11,7 +11,7 @@
             margin: 0;
             margin-right: 30px;
             width: 650px;
-            height: 510px;
+            height: 500px;
             border-radius: 5px;
         }
         .form{
@@ -76,6 +76,7 @@
                     padding: 20px 0 0 20px;
                     margin: 0;
                     margin-bottom: 22px;
+                    border-radius: 5px;
                 }
             }
             button{
@@ -92,6 +93,87 @@
             }
             button:active{
                 background-color: #17105F;
+            }
+        }
+    }
+}
+@media(max-width: 1300px){
+    .our-form{
+        .form-frame{
+            max-width: 1000px;
+        }
+    }
+}
+@media(max-width: 1024px){
+    .our-form{
+        .form-frame{
+            max-width: 700px;
+            flex-direction: column-reverse;
+            #map{
+                margin: 0 auto;
+            }
+            .form{
+                margin: 0 auto;
+            }
+            .submit{
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+@media(max-width: 800px){
+    .our-form{
+        .form-frame{
+            max-width: 700px;
+            flex-direction: column-reverse;
+            #map{
+                margin: 0 auto;
+                width: 450px;
+                height: 300px;
+            }
+        }
+    }
+}
+@media(max-width: 600px){
+
+}
+@media(max-width: 480px){
+    .our-form{
+        .form-frame{
+            max-width: 300px;
+            flex-direction: column-reverse;
+            #map{
+                width: 300px;
+                height: 200px;
+            }
+            .form{
+                margin: 0 auto;
+                .submit{
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+                .client-id{
+                    flex-direction: column;
+                    .name{
+                        max-width: 300px;
+                        input{
+                            width: 100%;
+                        }
+                    }
+                    .surname{
+                        max-width: 300px;
+                        input{
+                            width: 100%;
+                        }
+                        label{
+                            margin: 0;
+                        }
+                    }
+                    input{
+                        max-width: 100%;
+                    }
+                }
             }
         }
     }

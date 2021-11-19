@@ -1372,9 +1372,6 @@ header .substrate-block .big-block .line {
 @media (max-width: 1300px) {
   .our-team .team-frame {
     max-width: 1000px;
-  }
-  .our-team .team-frame {
-    max-width: 1150px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1631,7 +1628,7 @@ header .substrate-block .big-block .line {
   margin: 0;
   margin-right: 30px;
   width: 650px;
-  height: 510px;
+  height: 500px;
   border-radius: 5px;
 }
 
@@ -1707,6 +1704,7 @@ header .substrate-block .big-block .line {
   padding: 20px 0 0 20px;
   margin: 0;
   margin-bottom: 22px;
+  border-radius: 5px;
 }
 
 .our-form .form-frame .form button {
@@ -1725,5 +1723,91 @@ header .substrate-block .big-block .line {
 
 .our-form .form-frame .form button:active {
   background-color: #17105F;
+}
+
+@media (max-width: 1300px) {
+  .our-form .form-frame {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .our-form .form-frame {
+    max-width: 700px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .our-form .form-frame #map {
+    margin: 0 auto;
+  }
+  .our-form .form-frame .form {
+    margin: 0 auto;
+  }
+  .our-form .form-frame .submit {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .our-form .form-frame {
+    max-width: 700px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .our-form .form-frame #map {
+    margin: 0 auto;
+    width: 450px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .our-form .form-frame {
+    max-width: 300px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .our-form .form-frame #map {
+    width: 300px;
+    height: 200px;
+  }
+  .our-form .form-frame .form {
+    margin: 0 auto;
+  }
+  .our-form .form-frame .form .submit {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .our-form .form-frame .form .client-id {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .our-form .form-frame .form .client-id .name {
+    max-width: 300px;
+  }
+  .our-form .form-frame .form .client-id .name input {
+    width: 100%;
+  }
+  .our-form .form-frame .form .client-id .surname {
+    max-width: 300px;
+  }
+  .our-form .form-frame .form .client-id .surname input {
+    width: 100%;
+  }
+  .our-form .form-frame .form .client-id .surname label {
+    margin: 0;
+  }
+  .our-form .form-frame .form .client-id input {
+    max-width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

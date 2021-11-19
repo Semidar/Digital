@@ -184,9 +184,6 @@
 @media (max-width: 1300px) {
   .our-team .team-frame {
     max-width: 1000px;
-  }
-  .our-team .team-frame {
-    max-width: 1150px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
