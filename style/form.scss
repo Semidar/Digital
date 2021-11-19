@@ -43,7 +43,7 @@
                 padding: 12px; 
                 border-radius: 5px;
                 outline: none;
-                border: 2px solid grey;
+                border: none;
             }
             .client-id{
                 margin: 0;
@@ -78,7 +78,7 @@
                     margin-bottom: 22px;
                     border-radius: 5px;
                     outline: none;
-                    border: 2px solid grey;
+                    border: none;
                 }
             }
             .submit{
@@ -110,11 +110,9 @@
     }
     .invalid{
         background-color: #d2a8a8;
-        border: 1px solid #ff0000;
     }
     .valid{
         background-color: #a8d2ae;
-        border: 1px solid #00ff00;
     }
 }
 @media(max-width: 1300px){
@@ -188,6 +186,7 @@
                         }
                         label{
                             margin: 0;
+                            margin-bottom: 12px;
                         }
                     }
                     input{

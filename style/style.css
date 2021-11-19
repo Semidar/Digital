@@ -1676,7 +1676,7 @@ header .substrate-block .big-block .line {
   padding: 12px;
   border-radius: 5px;
   outline: none;
-  border: 2px solid grey;
+  border: none;
 }
 
 .our-form .form-frame .form .client-id {
@@ -1717,7 +1717,7 @@ header .substrate-block .big-block .line {
   margin-bottom: 22px;
   border-radius: 5px;
   outline: none;
-  border: 2px solid grey;
+  border: none;
 }
 
 .our-form .form-frame .form .submit {
@@ -1756,12 +1756,10 @@ header .substrate-block .big-block .line {
 
 .our-form .invalid {
   background-color: #d2a8a8;
-  border: 1px solid #ff0000;
 }
 
 .our-form .valid {
   background-color: #a8d2ae;
-  border: 1px solid #00ff00;
 }
 
 @media (max-width: 1300px) {
@@ -1844,6 +1842,7 @@ header .substrate-block .big-block .line {
   }
   .our-form .form-frame .form .client-id .surname label {
     margin: 0;
+    margin-bottom: 12px;
   }
   .our-form .form-frame .form .client-id input {
     max-width: 100%;
