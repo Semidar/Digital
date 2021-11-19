@@ -1707,6 +1707,22 @@ header .substrate-block .big-block .line {
   border-radius: 5px;
 }
 
+.our-form .form-frame .form .submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our-form .form-frame .form .submit .error {
+  color: red;
+  padding: 12px 35px;
+  background-color: #d2a8a8;
+  display: none;
+}
+
 .our-form .form-frame .form button {
   color: white;
   background-color: #17105F;
@@ -1723,6 +1739,16 @@ header .substrate-block .big-block .line {
 
 .our-form .form-frame .form button:active {
   background-color: #17105F;
+}
+
+.our-form .invalid {
+  background-color: #d2a8a8;
+  border: 1px solid #ff0000;
+}
+
+.our-form .valid {
+  background-color: #a8d2ae;
+  border: 1px solid #00ff00;
 }
 
 @media (max-width: 1300px) {

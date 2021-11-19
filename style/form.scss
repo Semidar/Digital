@@ -63,7 +63,6 @@
                 input{
                     max-width: 90%;
                 }
-                
             }
             .email{
                 input{
@@ -77,6 +76,16 @@
                     margin: 0;
                     margin-bottom: 22px;
                     border-radius: 5px;
+                }
+            }
+            .submit{
+                display: flex;
+                justify-content: space-between;
+                .error{
+                    color: red;
+                    padding: 12px 35px;
+                    background-color: #d2a8a8;
+                    display: none;
                 }
             }
             button{
@@ -95,6 +104,14 @@
                 background-color: #17105F;
             }
         }
+    }
+    .invalid{
+        background-color: #d2a8a8;
+        border: 1px solid #ff0000;
+    }
+    .valid{
+        background-color: #a8d2ae;
+        border: 1px solid #00ff00;
     }
 }
 @media(max-width: 1300px){

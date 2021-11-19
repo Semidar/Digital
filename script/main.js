@@ -75,9 +75,69 @@ window.addEventListener('load',()=>{
     }).addTo(map);
 
     let marker = L.marker([50.519606, 30.508938]).addTo(map);
-    
-
     // leaflet
+
+    // form validation
+    let error = document.querySelector('.error')
+    let form = document.form;
+    console.dir(form);
+
+    let validate = (elem, pattern)=>{
+        let res = elem.value.search(pattern);
+        if(res == -1){
+            elem.className = 'invalid';
+            elem.value  = '';
+            elem.placeholder = 'must be letters';
+        }
+        else{
+            elem.className = 'valid'
+        }
+    }
+
+    let validateEmail = (elem, pattern)=>{
+        let res = elem.value.search(pattern);
+        if(res == -1){
+            elem.className = 'invalid';
+            elem.value  = '';
+            elem.placeholder = 'example@mail.net';
+        }
+        else{
+            elem.className = 'valid'
+        }
+    }
+
+    form[0].addEventListener('change',()=>{
+
+        let pattern = /[a-zA-Z]/;
+        validate(form[0], pattern);
+
+    });
+    form[1].addEventListener('change',()=>{
+
+        let pattern = /[a-zA-Z]/;
+        validate(form[1], pattern);
+
+    });
+
+    form[2].addEventListener('change',()=>{
+
+        let pattern = /\b[a-z0-9._]+@[a-z0-9.-]+\.[a-z]{2,4}\b/i;
+        validateEmail(form[2], pattern);
+
+    });
+
+    form[4].addEventListener('click',(e)=>{
+
+        for(let i = 0; i < 3; i++){
+            if(form[i].value.length == 0){
+                form[i].className = 'invalid';
+                error.style.display = 'block';
+                e.preventDefault();
+            }
+        }
+
+    });
+    // form validatio
 
 });
 
